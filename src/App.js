@@ -6,7 +6,7 @@ const App = () =>{
 
 return(
 <div>
-   Empty React Project ....
+   changes to master
 </div>
 
 );
