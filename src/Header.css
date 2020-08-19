@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+/*We cant change svg width it take width from around*/
+/*We have png than image changes size */
+.header__logo{
+    height: 25px;
+    /*width: 200px;*/
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.header__middle{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border:1px solid black;
+}
+
+.header__icons{
+    display: flex;
+    align-items: center;
+}
+
+.header__middle > input{
+    flex:1;
+    border: none;
+}
+.header__inputButton{
+width: 50px !important;
+background-color: #fafafa;
+border-left: 1px solid lightgrey;
+color: gray;
+
+}
+.header__icon{
+    margin-right: 8px;
+}
